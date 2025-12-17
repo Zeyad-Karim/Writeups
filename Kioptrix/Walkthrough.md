@@ -1,10 +1,10 @@
 We start our Pentest with scanning locally using any of both methods:
 
 `sudo arp-scan -l`
-<img width="1374" height="436" alt="Pasted image 20250918105901" src="https://github.com/user-attachments/assets/1ef5e4bf-421a-4062-9af3-dc5663a7822d" />
+<img width="1374" height="436" alt="527826540-1ef5e4bf-421a-4062-9af3-dc5663a7822d" src="https://github.com/user-attachments/assets/c3c72070-27e2-46b5-b495-84e56403ec6a" />
 
 `sudo netdiscover -i eth0 -r 10.0.2.0/24`
-<img width="1181" height="316" alt="Pasted image 20250918110102" src="https://github.com/user-attachments/assets/82e7622e-7954-46f1-b6b8-51d723a975f2" />
+<img width="1181" height="316" alt="527826606-82e7622e-7954-46f1-b6b8-51d723a975f2" src="https://github.com/user-attachments/assets/dfb316f9-05d0-49d0-a786-a89de26c3fe1" />
 
 the first 3 IPs are related to My Personal VM, so now we know that the victim's IP is
 `10.0.2.5`
